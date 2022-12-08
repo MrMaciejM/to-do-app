@@ -1,7 +1,11 @@
+// to-do:
+// - fix issue where localStorage gets overwritten incorrectly
+
 var inputBtn = document.getElementById("inputBtn");
 
 var toDoArr = [];
 var todoArrCopy = [];
+
 var submitBtn = document.getElementById("submit");
 var inputBtn = document.getElementById("inputBtn");
 var deleteAllBtn = document.getElementById("deleteAll");
