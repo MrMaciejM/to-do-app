@@ -35,15 +35,19 @@ input {
   list-style: none;
   text-align: center;
 }
+/* center is the list item added via JS */
 .center {
   display: block;
   text-align: center;
-  margin: 1rem 20%;
+  margin: 1rem 30%;
   list-style: none;
   color: white;
   background-color: #7b03b7;
   border-radius: 3px;
   word-wrap: break-word;
+  padding: 0.18rem 0;
+  padding-left: 3rem;
+  /* padding left pushes item towards center */
 }
 .center:hover {
   background-color: #9e03ec;
@@ -59,4 +63,10 @@ input {
 #deleteAll:active {
   opacity: 0.7;
   background-color: rgb(255, 149, 149);
+}
+.delItemBtn {
+  margin: 0;
+  padding: 0.08rem 0.2rem;
+  float: right;
+  margin-right: 3px;
 }
